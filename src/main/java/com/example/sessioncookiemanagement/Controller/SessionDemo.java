@@ -1,7 +1,6 @@
 package com.example.sessioncookiemanagement.Controller;
 
 import com.example.sessioncookiemanagement.DAO.UserDao;
-import com.example.sessioncookiemanagement.Domain.User;
 import com.example.sessioncookiemanagement.Service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Controller
 @RequestMapping("/")
